@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title> Proj-08 </title>
+
+    <!--     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ -->
+
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+
+
+
+</head>
+
+<body>
+    <header style="text-align: center;" id="main-header" class="heading-leader">
+        <h1> Booking Appointment App </h1>
+    </header><br>
+    <div class=".container">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <form action="#" id="formation" onsubmit="storingDataOnLocalDisk(event)">
+                        <div>
+                            <label for="fn"> First Name :- </label>
+                            <input type="text" name="fname" id="fn" class="form-control" required>
+                        </div>
+                        <div>
+                            <label for="mn"> Middle Name :- </label>
+                            <input type="text" name="mname" id="mn" class="form-control">
+                        </div>
+                        <div>
+                            <label for="ln"> Last Name :- </label>
+                            <input type="text" name="lname" id="ln" class="form-control" required>
+                        </div>
+                        <div>
+                            <label for="em"> Email Address :- </label>
+                            <input type="email" name="mailing" id="em" class="form-control" required>
+                        </div>
+                        <div>
+                            <label for="pn"> Phone Number :- </label>
+                            <input type="number" name="mobile" id="pn" class="form-control" required>
+                        </div><br>
+                        <div>
+                            <button class="btn btn-dark form-control">Submit</button>
+                        </div>
+                    </form>
+                    <div>
+                        <ul id="helloWorld"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="008--Proj_Booking_Appoint_App.js"></script>
+</body>
+
+</html>
